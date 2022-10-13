@@ -4,9 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico.ico">
+    <link rel="bookmark" href="/favicon.ico.ico">
+    <title>小島牙醫診所</title>
+    <style>
+        #menu_control{
+            position: absolute;
+            z-index: -2;
+            opacity: 0;
+        }
+        .main-header{
+            height: 50px;
+            background-color: #ffffff;
+            position: relative;
+            box-shadow: -10px 0 10px #a5a5a5;
+            /* border: 1px solid red; */
+            z-index: 2;
+        }
+        .logo{
+            width: 200px;
+            height: 50px;
+            margin-left: 10px;
+            /* border: 1px solid red; */
+        }
+        .lpgo a{
+            display: block;
+            height: 40px ;
+        }
+        .logo img{
+            width: 100%;
+            display: block;
+        }
+        .menu_btn{
+            width: 40px;
+            height: 40px;
+            background-color: #ffffff;
+            display: block;
+            position: absolute;
+            top: 5px;
+            right: 10px;
+        }
+        .menu_btn span{
+            opacity: 0;
+        }
+        .menu_btn::before{
+            content: '';
+            position: absolute;
+            width: 36px;
+            height: 2px;
+            left: 2px;
+            top: 0;
+            bottom: 0;
+            background-color: #aaa;
+            margin: auto;
+            box-shadow: 0px 10px 0px #aaa,
+                        0px -10px 0px #aaa;
+        }
+        main-nav{
+            width: 100%;
+            height: calc(100vh - 50px);
+            position: absolute;
+            top: 52px;
+            left: -100%;
+            /* transition: .5s; */
+            background-color: #ffffff;
+        }
+        main-nav a{
+            display: block;
+            text-decoration: none;
+            color: #5B5A5A;
+            padding: 15px 15px;
+            border-bottom: 1px solid #a5a5a5;
+        }
+        #menu_control:checked ~ .main-header main-nav{
+            left: 0;
+            transition: .5s;
+        }
+        @media screen and(max-width:767px){
+            main-nav{
+                width: 100%;
+                height: calc(100vh - 50px);
+                position: absolute;
+                top: 52px;
+                left: -100%;
+                transition: .5s;
+            }
+        }
+        @media screen and (min-width:768px){
+            .menu_btn{ display: none; }
+            .main-header{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            main-nav{
+                position: relative;
+                left: 0;
+                display: flex;
+                width: auto;
+                height: auto;
+                top: 0;
+                background-color: transparent;
+            }
+            main-nav a{
+                border-bottom: none;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+    <input type="checkbox" name="" id="menu_control">
+
+    <div class="main-header">
+        <h1 class="logo">
+            <a href="#">
+                <img src="/pic/logo_header.png" alt="logo">
+            </a>
+        </h1>
+        <label for="menu_control" class="menu_btn">
+            <span>選單</span>
+        </label>
+        <main-nav>
+            <a href="#">關於小島</a>
+            <a href="#">醫療團隊</a>
+            <a href="#">治療項目</a>
+            <a href="#">門診預約</a>
+            <a href="#">最新消息</a>
+            <a href="#">牙科小學堂</a>
+            <a href="#">
+                <img src="/pic/login_icon.png" alt="查看預約">
+            </a>
+        </main-nav>
+    </div>
 </body>
 </html>
