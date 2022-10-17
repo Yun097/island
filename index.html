@@ -15,7 +15,7 @@
             z-index: -2;
             opacity: 0;
         }
-        .main-header{
+        .header{
             height: 50px;
             background-color: #ffffff;
             position: relative;
@@ -62,44 +62,45 @@
             box-shadow: 0px 10px 0px #aaa,
                         0px -10px 0px #aaa;
         }
-        main-nav{
+        nav{
             width: 100%;
             height: calc(100vh - 50px);
             position: absolute;
-            top: 52px;
+            top: 50px;
             left: -100%;
             /* transition: .5s; */
             background-color: #ffffff;
         }
-        main-nav a{
+        nav a{
             display: block;
             text-decoration: none;
             color: #5B5A5A;
             padding: 15px 15px;
-            border-bottom: 1px solid #a5a5a5;
+            border-bottom: 1px solid #E0E0E0;
         }
-        #menu_control:checked ~ .main-header main-nav{
+        #menu_control:checked ~ .header nav{
             left: 0;
             transition: .5s;
         }
-        @media screen and(max-width:767px){
-            main-nav{
+        @media screen and (max-width:767px){
+            nav{
                 width: 100%;
-                height: calc(100vh - 50px);
+                height: calc(100vh - 425px);
                 position: absolute;
-                top: 52px;
+                top: 51px;
                 left: -100%;
                 transition: .5s;
+                /* box-shadow: -1px -1px 10px -1px #a5a5a5; */
             }
         }
-        @media screen and (min-width:768px){
+        @media screen and (min-width:1200px){
             .menu_btn{ display: none; }
-            .main-header{
+            .header{
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
             }
-            main-nav{
+            nav{
                 position: relative;
                 left: 0;
                 display: flex;
@@ -108,8 +109,9 @@
                 top: 0;
                 background-color: transparent;
             }
-            main-nav a{
+            nav a{
                 border-bottom: none;
+                /* font-size: 1vw; */
             }
         }
     </style>
@@ -117,7 +119,7 @@
 <body>
     <input type="checkbox" name="" id="menu_control">
 
-    <div class="main-header">
+    <div class="header">
         <h1 class="logo">
             <a href="#">
                 <img src="/pic/logo_header.png" alt="logo">
@@ -126,7 +128,7 @@
         <label for="menu_control" class="menu_btn">
             <span>選單</span>
         </label>
-        <main-nav>
+        <nav>
             <a href="#">關於小島</a>
             <a href="#">醫療團隊</a>
             <a href="#">治療項目</a>
@@ -136,7 +138,7 @@
             <a href="#">
                 <img src="/pic/login_icon.png" alt="查看預約">
             </a>
-        </main-nav>
+        </nav>
     </div>
 </body>
 </html>
