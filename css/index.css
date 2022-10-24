@@ -1,0 +1,885 @@
+/* banner首圖 */
+.banner .wrap{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 40px;
+    position: relative;
+    vertical-align: middle;
+    /* border: 1px solid red; */
+}
+.wrap .index-banner{
+    display: flex;
+    margin: auto;
+    position: relative;
+}
+.wrap .index-banner img{
+    width: 100%;
+    margin: auto;
+    border-radius: 0 0 15px 15px;
+}
+.banner h3{
+    font-size: 1em;
+}
+.banner h3 span{
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 3px solid #85BDCE;
+    font-size: 1em;
+}
+.banner ul{
+    margin: 20px 0;
+}
+.banner li{
+    line-height: 2;
+}
+/* ---醫療團隊--- */
+.teme .wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 0 20px 0; 
+    /* border: 1px solid blue; */
+}
+.teme .title{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    line-height: 1.3;
+}
+.teme h2{
+    text-align: center;
+    color: #5B5A5A;
+    font-size: 16px;
+}
+.teme .item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.teme .card{
+    width: 228px;
+    height: 100%;
+    margin: 3px;
+    text-align: center;
+    box-shadow: 
+    0px 0 10px 	#D0D0D0;
+}
+.teme .card:hover{
+    transform: translateY(-50px);
+}
+.teme .card img{
+    width: 100%;
+    vertical-align: middle;
+}
+.teme .card .text {
+    background-color: #A3DBDF;
+    opacity: 70%;
+    padding: 10px;
+    box-shadow: 
+    0px 0 10px 	#D0D0D0
+}
+.teme a{
+    text-decoration: none;
+}
+.teme h5{
+    font-weight: 700;
+    font-size: 16px;
+    color: #075E79;
+    padding: 10px;
+    text-align: left;
+}
+.teme p{
+    font-weight: 500;
+    font-size: 22px;
+    color: #158AAF;
+    padding: 3px 10px;
+    text-align: left;
+}
+/* 治療項目 */
+.service .wrap{
+    width: 100%;
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: #FFFFFF;
+    border: 4px solid #BCE9EC;
+    border-radius: 32px;
+    vertical-align: middle;
+    /* border: 1px solid blueviolet; */
+}
+.service .column{
+    max-width: 1200px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 0;
+    padding: 20px 10px;
+}
+.service .item{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+}
+.service .menu{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    background-color: #F9F9F9;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 3px 3px 3px #c7c7c7
+}
+.service .title{
+    width: 150px;
+    padding: 0;
+    margin: 10px auto;
+    /* border: 1px solid #075E79; */
+}
+.service h4{
+    text-align: center;
+    color: #5B5A5A;
+    margin: 10px;
+    /* font-size: 16px; */
+}
+.service .span{
+    font-size: 20px;
+}
+.service .menu img{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.service .item h6{
+    text-align: center;
+    font-weight: 400;
+    padding: 20px;
+    /* border: 1px solid red; */
+    font-size: 19px;
+    color: #494949;
+}
+.service .menu p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5em;
+    color: #FFFFFF;
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+.menu:hover p{
+    opacity: 1;
+}
+/* 最新消息 */
+.news .wrap{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    /* border: 1px solid red; */
+    /* align-items: center; */
+}
+.news .title{
+    /* border: 1px solid rgb(17, 141, 20); */
+    position: relative;
+    margin-right: 5%;
+    padding:0 ;
+    width: 100px;
+}
+.news .span{
+    font-size: 1.5em;
+}
+.news .item{
+    /* border: 1px solid red; */
+    border-bottom: 1px dashed #A1A1A1;
+    padding: 5px;
+    width: 700px;
+    margin: auto;
+}
+.news .icon{
+    width: 105px;
+    height: 40px;
+    background-color: #DFF7F9;
+    border-radius: 0 0 35px;
+    margin: 10px;
+    /* position: relative;
+    margin-left: 0; */
+    /* border: 1px solid blue; */
+}
+.news .icon p{
+    font-size: 16px;
+    color: #158AAF;
+    margin: 8px 5px;
+}
+.news .text p{
+    font-size: 16px;
+    color: #5B5A5A;
+    text-align: center;
+    /* border: 1px solid red; */
+    line-height: 3;
+}
+.news .links{
+    font-size: 28px;
+    color: #85BDCE;
+    line-height: 2;
+    margin-left: 300px;
+    /* border: 1px solid red; */
+}
+.news .links:hover{
+    color: #158AAF;
+    transition: .5s;
+}
+.news-btn{
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    background-color: #85BDCE;
+}
+.news-btn:hover{
+    background-color: #158AAF;
+    color: #c7c7c7;
+    transition: .5s;
+}
+.news-btn a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+/* 牙科小學堂 */
+.school .wrap{
+    display: flex;
+    max-width: 1200px;
+    /* border: 1px solid red; */
+    margin: auto;
+}
+.school .title{
+    margin-left: 0;
+    position: relative;
+    margin-right: 5%;
+    margin-bottom: 40px ;
+    width: 160px;
+    /* border: 1px solid red; */
+}
+.school .item{
+    /* border: 1px solid red; */
+    vertical-align: middle;
+    width: 100%;
+    margin: auto;
+}
+.school .card{
+    background-color: #40A0BE;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 	#c7c7c7
+}
+.school .card:hover {
+    transform: scale(1.2);
+    transition: .5s;
+}
+.school img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.school .card p{
+    color: #FFFFFF;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 30px;
+}
+.school-btn{
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    background-color: #85BDCE;
+}
+.school-btn:hover{
+    background-color: #158AAF;
+    color: #c7c7c7;
+    transition: .5s;
+}
+.school-btn a{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+/* -------------手機版------------ */
+@media screen and (max-width:767px){
+    .banner .wrap .text{
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(210, 249, 252, 0.848);
+        border-radius: 10px;
+        font-size: 18px;
+        color: #158AAF;
+        margin-top:15%;
+        margin-left: 5%;
+        padding: 20px 30px 10px 10px;
+        /* border: 1px solid red; */
+    }
+    .banner h3{
+        font-size: 0.8em;
+    }
+    /* 立即預約按鈕 */
+    .banner .text .resever-btn{
+        position: fixed;
+        display:inline-block;
+        background: #40A0BE;
+        color: #fff;
+        width: 100%;
+        height: 3vh;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .banner .text .resever-btn:hover{
+        background-color: #158AAF;
+        color: #c7c7c7;
+        transition: .5s;
+    }
+    .slider {
+        position:relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        /* border: 1px solid red; */
+    }
+    .slider-item {
+        width: 100%;
+        height:100%;
+        z-index: 1;
+        margin-top: 0;
+        border-radius: 10px 0 0 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* border: 1px solid red; */
+    }
+    .slider-item img{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .slick-prev, /*箭頭*/
+    .slick-next {
+        position: absolute;
+        z-index: 1;
+        top: 42%;
+        cursor: pointer;
+        outline: none;
+        border-top: 2px solid #158AAF;
+        border-right: 2px solid #158AAF;
+        height: 25px;
+        width: 25px;
+    }
+    .slick-prev {
+        top: 50%;
+        left:2.5%;
+        transform: rotate(-135deg);
+    }
+    .slick-next {
+        top: 50%;
+        right:2.5%;
+        transform: rotate(45deg);
+    }
+    .slick-dots {
+        position: relative;
+        z-index: 1;
+        text-align:center;
+        margin:-30px 0 0 0;
+    }
+
+    .slick-dots li {
+        display:inline-block;
+        margin:0 5px;
+    }
+    .slick-dots button {
+        color: transparent;
+        outline: none;
+        width:8px;
+        height:10px;
+        display:block;
+        border-radius:50%;
+        background: #88e0fb80;;
+        border: none;
+    }
+    .slick-dots .slick-active button{
+        background:#158AAF;
+        border: none;
+    }
+    /* 關於小島文字簡介 */
+    .about .container{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .about .text{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid red; */
+    }
+    .about h4{
+        width: 150px;
+        font-size: 18px;
+        line-height: 1.5;
+        border-bottom: 3px solid #85BDCE;
+        padding-bottom: 5px;
+        margin: 10px;
+    }
+    .about span{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 16px;
+        line-height: 1.8;
+        padding: 10px 10px 10px 0;
+        margin: 10px;
+        /* border: 1px solid red; */
+    }
+    /* 了解更多 */
+    .text .buttom{
+        width: 110px;
+        position: relative;	
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        margin:20px auto ;
+        /* border: 1px solid blue; */
+    } 
+    .container .about-btn{
+        background: #85BDCE;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+        outline: none;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px #a5a5a5;
+    }
+    .about-btn:hover{
+        background-color: #40A0BE;
+        color: #fff;
+        transform: .5s;
+    }
+    /* 治療項目 */
+    .service .item h6{
+        font-size: .6em;
+    }
+    .service .menu{
+        margin: 0 10px;
+    }
+    .service .menu p{
+        font-size: 15px;
+    }
+    /* 最新消息 */
+    .news .item{
+        width: 80%;
+        margin: auto;
+    }
+    .news .title{
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+    .news .icon{
+        position: relative;
+        margin-left: 0;
+    }
+    .news .links{
+        margin-left: 30%;
+    }
+}
+/* -------------平版------------ */
+@media screen and (min-width:768px){
+    .banner .wrap .text{
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(210, 249, 252, 0.848);
+        border-radius: 10px;
+        font-size: 18px;
+        color: #158AAF;
+        margin-top:20%;
+        margin-left: 5%;
+        padding: 20px 30px 10px 10px;
+        /* border: 1px solid red; */
+    }
+   /* 立即預約按鈕 */
+    .banner .text .resever-btn{
+        position: fixed;
+        display:inline-block;
+        background: #40A0BE;
+        color: #fff;
+        width: 100%;
+        height: 3vh;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        z-index: 3;
+        /* border: 1px solid red; */
+    }
+    .banner .text .resever-btn:hover{
+        background-color: #158AAF;
+        color: #c7c7c7;
+        transition: .5s;
+    }
+    /* 關於小島輪播圖 */
+    .slider {
+        position:relative;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        margin-top: 0;
+        /* border: 1px solid red; */
+    }
+    .slider-item {
+        width: 100%;
+        height:100%;
+        z-index: 1;
+        margin-top: 0;
+        border-radius: 10px 0 0 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* border: 1px solid red; */
+    }
+    .slider-item img{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid red; */
+    }
+    .slick-prev, /*箭頭*/
+    .slick-next {
+        position: absolute;
+        z-index: 1;
+        top: 42%;
+        cursor: pointer;
+        outline: none;
+        border-top: 2px solid #158AAF;
+        border-right: 2px solid #158AAF;
+        height: 25px;
+        width: 25px;
+    }
+    .slick-prev {
+        top: 50%;
+        left:2.5%;
+        transform: rotate(-135deg);
+    }
+    .slick-next {
+        top: 50%;
+        right:2.5%;
+        transform: rotate(45deg);
+    }
+    .slick-dots {
+        position: relative;
+        z-index: 1;
+        text-align:center;
+        margin:-30px 0 0 0;
+    }
+
+    .slick-dots li {
+        display:inline-block;
+        margin:0 5px;
+    }
+    .slick-dots button {
+        color: transparent;
+        outline: none;
+        width:8px;
+        height:10px;
+        display:block;
+        border-radius:50%;
+        background: #88e0fb80;;
+        border: none;
+    }
+    .slick-dots .slick-active button{
+        background:#158AAF;
+        border: none;
+    }
+    /* 關於小島文字簡介 */
+    .about .text{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        /* border: 1px solid red; */
+    }
+    .about h4{
+        width: 150px;
+        font-size: 18px;
+        line-height: 1.5;
+        border-bottom: 3px solid #85BDCE;
+        padding-bottom: 5px;
+        margin: 10px;
+    }
+    .about span{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 16px;
+        line-height: 1.8;
+        padding: 10px 10px 10px 0;
+        margin: 10px;
+        /* border: 1px solid red; */
+    }
+    /* 了解更多 */
+    .text .buttom{
+        width: 110px;
+        position: relative;	
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        margin:20px auto ;
+        /* border: 1px solid blue; */
+    } 
+    .container .about-btn{
+        background: #85BDCE;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+        outline: none;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px #a5a5a5;
+    }
+    .about-btn:hover{
+        background-color: #40A0BE;
+        color: #fff;
+        transform: .5s;
+    }
+    /* 治療項目 */
+    .service .wrap{
+        margin: 50px auto;
+        padding: 0;
+    }
+    .service .menu{
+        margin: 8%;
+    }
+    .service .menu p{
+        font-size: 18px;
+    }
+    /* 最新消息 */
+    .news .title{
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+}
+/* -------------桌機版------------ */
+@media screen and (min-width:1200px){
+    .banner .wrap .text{
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(210, 249, 252, 0.848);
+        border-radius: 10px;
+        font-size: 18px;
+        color: #158AAF;
+        margin-top:20%;
+        margin-left: 5%;
+        padding: 30px 50px 60px 50px;
+        /* border: 1px solid red; */
+    }
+    /* 立即預約按鈕 */
+    .banner .text .resever-btn{
+        position: absolute;	
+        background: #40A0BE;
+        color: #fff;
+        width: 100px;
+        height: 25px;
+        line-height: 25px;
+        margin-left: 60%;
+        margin-bottom: 5%;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        border-radius: 4px;
+        z-index: 3;
+        box-shadow: 1px 1px 2px #a5a5a5;
+    }
+    .banner .resever-btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -75%;
+        width: 50%;
+        height: 100%;
+        color: #c7c7c7;
+        background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+        transform: skewX(-25deg);
+    }
+    .resever-btn:hover::before {
+        animation: shine 0.7s;
+    }
+    @keyframes shine {
+        100% {
+            left: 125%;
+        }
+    }
+    /* 關於小島輪播圖 */
+    .slider {
+        position:relative;
+        z-index: 1;
+        width: 60vw;
+        height: 65vh;
+        margin-left: 2%;
+        margin-top: 0;
+        /* border: 1px solid red; */
+    }
+    .slider-item {
+        width: 60vw;
+        height:100vh;
+        z-index: 1;
+        margin-top: 0;
+        border-radius: 10px 0 0 10px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        /* border: 1px solid red; */
+    }
+    .slider-item img{
+        width: 100%;
+        height: 65vh;
+        /* border: 1px solid red; */
+    }
+    .slick-prev, /*箭頭*/
+    .slick-next {
+        position: absolute;
+        z-index: 1;
+        top: 42%;
+        cursor: pointer;
+        outline: none;
+        border-top: 2px solid #158AAF;
+        border-right: 2px solid #158AAF;
+        height: 25px;
+        width: 25px;
+    }
+    .slick-prev {
+        top: 50%;
+        left:2.5%;
+        transform: rotate(-135deg);
+    }
+    .slick-next {
+        top: 50%;
+        right:2.5%;
+        transform: rotate(45deg);
+    }
+    .slick-dots {
+        position: relative;
+        z-index: 1;
+        text-align:center;
+        margin:-30px 0 0 0;
+    }
+
+    .slick-dots li {
+        display:inline-block;
+        margin:0 5px;
+    }
+    .slick-dots button {
+        color: transparent;
+        outline: none;
+        width:8px;
+        height:10px;
+        display:block;
+        border-radius:50%;
+        background: #88e0fb80;;
+        border: none;
+    }
+    .slick-dots .slick-active button{
+        background:#158AAF;
+        border: none;
+    }
+    /* 關於小島文字簡介 */
+    .about .container{
+        display: flex;
+        align-items: center;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 30px;
+        /* border: 1px solid red; */
+    }
+    .about .text{
+        width: 450px;
+        margin: auto;
+        margin-top: 0;
+        margin-left: 50px;
+        /* border: 1px solid red;
+    } */
+    }
+    .about h4{
+        width: 150px;
+        font-size: 18px;
+        line-height: 1.5;
+        border-bottom: 3px solid #85BDCE;
+        padding-bottom: 5px;
+    }
+    .about span{
+        font-size: 24px;
+    }
+    .about p{
+        font-size: 16px;
+        line-height: 1.8;
+        padding: 10px 10px 10px 0;
+        /* border: 1px solid red; */
+    }
+    /* 了解更多 */
+    .text .buttom{
+        width: 110px;
+        position: relative;	
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        margin:10px auto ;
+        /* border: 1px solid blue; */
+    } 
+    .container .about-btn{
+        background: #85BDCE;
+        color: #fff;
+        padding: 10px 15px 10px 15px;
+        text-decoration: none;
+        text-align: center;
+        outline: none;
+        overflow: hidden;
+        border-radius: 4px;
+        box-shadow: 1px 1px 2px #a5a5a5;
+        /* border: 1px solid red; */
+    }
+    .about-btn:hover{
+        background-color: #40A0BE;
+        color: #fff;
+        transform: .5s;
+    }
+    /* 治療項目 */
+    .service .wrap{
+        margin: 100px auto;
+        padding: 0px 10px 0px 0px;
+    }
+    .service .menu{
+        margin: 30px;
+    }
+    .service .title{
+        margin: 20px auto;
+    }
+}

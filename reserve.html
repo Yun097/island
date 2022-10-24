@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/reserve.css" rel="stylesheet" type="text/css"> 
+    <link href="css/header.css" rel="stylesheet" type="text/css"> 
+    <link href="css/footer.css" rel="stylesheet" type="text/css"> 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="pic/favicon.ico.ico">
+    <link rel="bookmark" href="pic/favicon.ico.ico">
+    <title>門診預約-小島牙醫診所</title>
+</head>
+<body>
+    <!-- 導覽列 -->
+    <input type="checkbox" name="" id="menu_control">
+
+    <div class="main-header">
+        <h1 class="logo">
+            <a href="#">
+                <img src="/pic/logo_header.png" alt="logo">
+            </a>
+        </h1>
+        <label for="menu_control" class="menu_btn">
+            <span>選單</span>
+        </label>
+        <nav class="main-nav">
+            <h2><a href="https://yun097.github.io/about.html">關於小島</a></h2> 
+            <h2><a href="#">醫療團隊</a></h2>
+            <h2><a href="#">治療項目</a></h2> 
+            <h2><a href="#">門診預約</a></h2>
+            <h2><a href="#">最新消息</a></h2>
+            <h2><a href="#">牙科小學堂</a></h2>
+            <h2 class="header-login">
+                <a href="#">
+                    <img src="/pic/login_icon.png" alt="查看預約">
+                    <p>查看預約</p>
+                </a>
+            </h2>
+                
+        </nav>
+    </div>
+    <!-- banner -->
+    <div class="banner">
+        <img src="pic/header-banner.png" alt="醫療團隊">
+        <div class="title">
+            <h4>Reserve<br><span>門診預約</span></h4>
+        </div>
+    </div>
+    <div class="path-wrap">
+        <ol class="path">
+            <li><a href="https://yun097.github.io/about.html">首頁</a></li>
+            <li><a href="https://yun097.github.io/teme.html">門診預約</a></li>
+        </ol>
+    </div>
+    <div class="reserve-wrap">
+        <div class="item">
+            <img src="/pic/reserve_sheet.png" alt="醫師門診表">
+        </div>
+    </div>
+    <div class="reserve-container">
+        <div class="column">
+            <div class="item-form">
+                <div class="text">
+                    <h3>預約資訊</h3>
+                    <p></p>
+                </div>
+                <div class="from">
+                    <form action="">
+                        <div>
+                            姓名：<br>
+                            <input type="text">
+                        </div>
+                        <div>
+                            身分證號：<br>
+                            <input type="text" maxlength="10">
+                        </div>
+                        <div>
+                            電子信箱：<br>
+                            <input type="email">
+                        </div>
+                        <div>
+                            聯絡電話：<br>
+                            <input type="tel" maxlength="10">
+                        </div>
+                        <div>
+                            生日：<br>
+                            <input type="date">
+                        </div>
+                        <div>
+                            預約日期：<br>
+                            <input type="date">
+                        </div>
+                        <div>
+                            預約時段：<br>
+                            <input type="radio" name="sex">早上09:00~12:00<br>
+                            <input type="radio" name="sex">下午14:00~18:00<br>
+                            <input type="radio" name="sex">晚上19:00~21:00
+                        </div>
+                        <div>
+                            治療項目：<br>
+                            <select>
+                                <option>請選擇治療項目</option>
+                                <option>洗牙</option>
+                                <option>補蛀牙</option>
+                                <option>定期檢查</option>
+                                <option>根管治療</option>
+                                <option>兒童治療</option>
+                                <option>牙周療程</option>
+                                <option>美學療程</option>
+                                <option>矯正療程</option>
+                                <option>其他治療</option>
+                            </select>
+                        </div>
+                        <div>
+                            看診醫師：<br>
+                            <select>
+                                <option>請選擇看診醫師</option>
+                                <option>張依然醫師</option>
+                                <option>吳霖琳醫師</option>
+                                <option>黃安妮醫師</option>
+                                <option>陳傑森醫師</option>
+                                <option>李民豪醫師</option>
+                                <option>吳宗林醫師</option>
+                            </select>
+                        </div>
+                        <div>
+                            其他需求：<br>
+                            <textarea name="其他需求" rows="5" cols="40"></textarea><br>
+                            <input type="checkbox">發送提醒簡訊
+                        </div>
+                    </form>
+                    <div class="reserve-btn">
+                        <a href="https://yun097.github.io/reserve-success.html">送出</a>
+                    </div>
+                </div>
+                </div>
+            <div class="item-map">
+                <div class="text-map">
+                    <h3>交通資訊</h3>
+                    <img src="pic/reserve_map.png" alt="位置地圖">
+                    <h4>地址</h4>
+                    <p>> 桃園市中壢區復興路oo號</p>
+                    <h4>自行開車建議</h4>
+                    <p>> 診所前方10公尺設有特約停車場</p>
+                    <h4>大眾運輸建議</h4>
+                    <p>> 桃園客運公車搭車至中壢客運總站或中壢火車站，步行約10分鐘。</p>
+                </div>
+                <div class="text-notice">
+                    <h3>注意事項</h3>
+                    <ul style="list-style-type: disc;">
+                        <li>• 若您有急迫的醫療服務，請直接來電診所預約。</li>
+                        <li>• 請提前於欲看診時間的前24小時，完成線上預約，逾時不受理。</li>
+                        <li>• 如欲更改預約內容請直接來電診所。</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

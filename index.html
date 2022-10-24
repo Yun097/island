@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="/favicon.ico.ico">
-    <link rel="bookmark" href="/favicon.ico.ico">
-    <link href="index.css" rel="stylesheet" type="text/css"> 
+    <!-- css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css"> 
+    <link href="css/header.css" rel="stylesheet" type="text/css"> 
+    <link href="css/footer.css" rel="stylesheet" type="text/css"> 
+    <!-- favicon -->
+    <link rel="shortcut icon" href="pic/favicon.ico.ico">
+    <link rel="bookmark" href="pic/favicon.ico.ico">
+    <!-- JS/jQ -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
     <title>小島牙醫診所</title>
-    <style>
-        
-    </style>
 </head>
 <body>
+    <!-- 導覽列 -->
     <input type="checkbox" name="" id="menu_control">
 
     <div class="main-header">
@@ -27,34 +31,275 @@
             <span>選單</span>
         </label>
         <nav class="main-nav">
-            <a href="#">關於小島</a>
-            <a href="#">醫療團隊</a>
-            <a href="#">治療項目</a>
-            <a href="#">門診預約</a>
-            <a href="#">最新消息</a>
-            <a href="#">牙科小學堂</a>
-            <a href="#">
-                <img src="/pic/login_icon.png" alt="查看預約">
-                <p>查看預約</p>
-            </a>
+            <h2><a href="https://yun097.github.io/about.html">關於小島</a></h2> 
+            <h2><a href="#">醫療團隊</a></h2>
+            <h2><a href="#">治療項目</a></h2> 
+            <h2><a href="#">門診預約</a></h2>
+            <h2><a href="#">最新消息</a></h2>
+            <h2><a href="#">牙科小學堂</a></h2>
+            <h2 class="header-login">
+                <a href="#">
+                    <img src="/pic/login_icon.png" alt="查看預約">
+                    <p>查看預約</p>
+                </a>
+            </h2>
+                
         </nav>
     </div>
-
+    <!-- banner首圖 -->
     <div class="banner">
         <div class="wrap">
             <div class="text">
-                <h1>給您安心、健康的口腔醫療體驗</h1>
-                <p>Approachable<br>Healthy<br>Relieved</p>
+                <h3>
+                    <span>給您安心、健康的口腔醫療體驗</span>
+                    <ul>
+                        <li>- Approachable</li>
+                        <li>- Healthy</li>
+                        <li>- Relieved</li>
+                    </ul>
+                </h3>
+                <a href="#" class="resever-btn">立即預約</a>
             </div>
-            <div class="pic">
-                <img src="pic/inder-header_banner.png" alt="診所環境">
-            </div>
-            <div class="banner-btn">
-                <a href="#">立即預約</a>
+            <div class="index-banner">
+                <img src="pic/inder-header_banner.png" alt="banner首圖">
             </div>
         </div>
     </div>
-    
-</body>
+    <!-- 關於小島 -->
+    <div class="about">
+        <div class="container">
+            <ul class="slider">
+                <li class="slider-item slider-item01">
+                    <img src="pic/index-slider_01.png" alt="牙齒矯正專科">
+                </li>
+                <li class="slider-item slider-item02">
+                    <img src="pic/index-slider_02.png" alt="療程諮詢">
+                </li>
+                <li class="slider-item slider-item03">
+                    <img src="pic/index-slider_03.png" alt="牙周病專科">
+                </li>
+            </ul>
+            <div class="text">
+                <h4>About Islands<br><span>關於小島</span></h4>
+                <p>每個人都是一座小島，小島牙醫這座島上提供親切、安心的服務來照顧患者的口腔健康。<br>小島牙醫成立於2020年，在最動盪不安的疫情時代 ...<br>院長 張醫師卻依然堅持要準時開業來服務中壢在地的鄉親們<br>小島擁有國際級水準的醫療設備，以及專業的醫療團隊<br>舒適的候診環境也能使患者緊張的情緒達到放鬆的效果。<br>本院也有提供愛心義診等服務，多次前往醫療資源較不足的偏鄉地區為孩童進行義診並實施衛教宣導等活動 ...<br>小島牙醫始終秉持著以人為本的經營理念為地方鄉親服務。<br>
+                <br>2020年 本院獲頒臺灣牙科醫學會 - 最佳熱忱服務獎項<br>2021年 本院李民豪醫師 入圍牙醫師公會 - 牙齒美學競賽獎項<br>2022年 本院吳霖琳醫師 獲頒兒童牙科公會 - 最佳牙科仙子醫師</p>
+                <div class="buttom">
+                    <a href="#" class="about-btn">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 醫療團隊 -->
+    <div class="teme">
+        <div class="wrap">
+            <div class="title">
+                <h4>Teme List<br><span>醫療團隊</span></h4>
+            </div>
+        <div class="item">
+            <div class="card">
+                <a href="https://yun097.github.io/teme.html">
+                    <img src="pic/doctor-huang.jpg" alt="黃安妮醫師">
+                    <div class="text">
+                        <h5>▶ 牙周專科</h5>
+                        <p>黃安妮   醫師</p>
+                    </div>
+                </a>
+            </div>
+        
+            <div class="card">
+                <a href="https://yun097.github.io/teme.html">
+                    <img src="pic/doctor-wu.jpg" alt="吳霖琳醫師">
+                    <div class="text">
+                        <h5>▶ 兒童專科</h5>
+                        <p>吳霖琳   醫師</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://yun097.github.io/teme.html">
+                    <img src="pic/doctor-chang.jpg" alt="張依然醫師">
+                    <div class="text">
+                        <h5>▶ 植牙專科</h5>
+                        <p>張依然   醫師</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://yun097.github.io/teme.html">
+                    <img src="pic/doctor-li.jpg" alt="李民豪醫師">
+                    <div class="text">
+                        <h5>▶ 矯正專科</h5>
+                        <p>李民豪   醫師</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://yun097.github.io/teme.html">
+                    <img src="pic/doctor-chen.jpg" alt="陳傑森醫師">
+                    <div class="text">
+                        <h5>▶ 美齒專科</h5>
+                        <p>陳傑森   醫師</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://yun097.github.io/teme.html">
+                    <img src="pic/doctor-andywu.png" alt="吳宗林醫師">
+                    <div class="text">
+                        <h5>▶ 家庭專科</h5>
+                        <p>吳宗林   醫師</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 治療項目 -->
+    <div class="service">
+        <div class="wrap">
+            <div class="title">
+                <h4>Service Items<br><span>治療項目</span></h4>
+            </div>
+            <div class="column">
+                <div class="item">
+                    <div class="menu">
+                        <a href="https://yun097.github.io/service.html">
+                            <img style="border-radius: 50%;" src="pic/index-service_01.png" alt="一般牙科">
+                            <p>了解更多</p>
+                        </a> 
+                    </div>
+                    <h6>一般牙科治療</h6>
+                </div>
+                <div class="item">
+                    <div class="menu">
+                        <a href="https://yun097.github.io/service.html">                       <img style="border-radius: 50%;" src="pic/index-service_02.png" alt="兒童牙科">
+                            <p>了解更多</p>
+                        </a>                    
+                    </div>
+                    <h6>兒童牙科</h6>
+                </div>
+                <div class="item">
+                    <div class="menu">
+                        <a href="https://yun097.github.io/service.html">
+                            <img style="border-radius: 50%;" src="pic/index-service_03.png" alt="牙齒美學">               
+                            <p>了解更多</p>
+                        </a>
+                    </div>
+                    <h6>牙齒美學</h6>
+                </div>
+                <div class="item">
+                    <div class="menu">
+                        <a href="https://yun097.github.io/service.html">
+                            <img style="border-radius: 50%;" src="pic/index-service_04.png" alt="牙齒矯正">                
+                            <p>了解更多</p>
+                        </a>
+                    </div>
+                    <h6>牙齒矯正</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 最新消息 -->
+    <div class="news">
+        <div class="wrap">
+            <div class="title">
+                <h4>News<br><span>最新消息</span></h4>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <a href="https://yun097.github.io/news.html"></a>
+                    <p>公告訊息</p>
+                </div>
+                <div class="text">
+                    <p>2022/09/08 中秋節休診公告</p>
+                </div>
+                <a href="https://yun097.github.io/news.html">
+                    <div class="links">⇀</div>
+                </a>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <p>公告訊息</p>
+                </div>
+                <div class="text">
+                    <p>2022/06/03 中秋節休診公告</p>
+                </div>
+                <a href="https://yun097.github.io/news.html">
+                    <div class="links">⇀</div>
+                </a>
+            </div>
+            <div class="item">
+                <div class="icon">
+                    <p>公告訊息</p>
+                </div>
+                <div class="text">
+                    <p>2022/05/01 勞動節休診公告</p>
+                </div>
+                <a href="https://yun097.github.io/news.html">
+                    <div class="links">⇀</div>
+                </a>
+            </div>
+            <div class="news-btn">
+                <a href="https://yun097.github.io/news.html">更多消息</a>
+            </div> 
+        </div>
+    </div>
+    <!-- 牙科小學堂 -->
+    <div class="school">
+        <div class="wrap">
+            <div class="title">
+                <h4>Dental school<br><span>牙科小學堂</span></h4>
+            </div>
+            <div class="item">
+                <div class="card">
+                    <a href="https://yun097.github.io/article_list.html">
+                        <img src="pic/index-school_01.png" alt="牙周病治療">
+                    <p>什麼是牙周病...</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://yun097.github.io/article_list.html">
+                        <img src="pic/index-school_02.jpg" alt="冷光美白療程">
+                    <p>冷光美白有效嗎？</p>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="https://yun097.github.io/article_list.html">
+                        <img src="pic/index-school_03.jpg" alt="兒童矯正療程">
+                    <p>幾歲開始矯正牙齒...</p>
+                    </a>
+                </div>
+            </div>
+            <div class="school-btn">
+                <a href="https://yun097.github.io/article_list.html">更多文章 </a>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="main-footer">
+        <div class="container">
+            <div class="footer-item">
+                <h5>診所地址</h5>
+                <p>桃園市中壢區復興路oo號<br>(中壢火車站步行約10分鐘)</p>
+            </div>
+            <div class="footer-item">
+                <h5>看診時間</h5>
+                <p>週一至週五 <br>09:00~12:00<br>15:00~18:00<br>18:30~21:00
+                <br>週六、週日、國定假日休診</p>
+            </div>
+            <div class="footer-item">
+                <h5>聯絡我們</h5>
+                <p>Tel：03-12345678<br>免付費諮詢專線：0800-123000</p>
+                <a class="footer-btn" href="#" >立即預約</a>
+            </div>
+        </div>
+        <div class="conpyright">
+            Copyright &copy; 2022
+            小島牙醫診所
+        </div>
+    </div>
+    <!-- slider-banner -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/about-slider.js"></script>
 </body>
 </html>

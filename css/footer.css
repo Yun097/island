@@ -1,0 +1,102 @@
+.main-footer{
+    padding: 60px 0 0 0 ;
+    background-color: #075E79;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+}
+.main-footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    vertical-align: middle;
+    margin: auto;
+    /* border: 1px solid yellow; */
+}
+.container .footer-item{
+    flex-grow: 1;
+    margin: 30px ;
+
+    position: relative;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+.footer-item h5{
+    color: #F5F5F5;
+    display: flex;
+    width: 180px;
+    font-size: 20px;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px dotted #F5F5F5;
+    /* border: 1px solid greenyellow; */
+}
+.footer-item p{
+    font-size: 14px;
+    color: #F5F5F5;
+    text-align: start;
+    line-height: 2;
+}
+
+.conpyright{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0 0;
+    padding: 10px 0px;
+    background-color: #11495B;
+    color: #D0D0D0;
+}
+@media screen and(max-width:767px) {
+    .conpyright{
+        margin-bottom: 40px;
+    }
+}
+@media screen and(min-width:768px) {
+    .main-footer .container{
+        display: flex;
+        /* width: 100%; */
+        max-width: 1200px;
+        position: relative;
+        vertical-align: middle;
+        margin: auto;
+        border: 1px solid yellow;
+    }
+    .container .footer-item{
+        width: 300px;
+    }
+    /* .footer-item{
+        margin: 10px 30px;
+    }  */
+    .conpyright{
+        margin-bottom: 40px;
+    }
+}
+@media screen and(min-width:1200px) {
+    .footer-item .footer-btn{
+        display: flex;
+        margin-left: 70%;
+        width: 70px;
+        margin-top: 40px;
+        border-radius: 4px;
+        padding: 10px 15px 10px 15px;
+        background-color: #40A0BE;
+        color: #FFFFFF;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        border-radius: 4px;
+        z-index: 3;
+        box-shadow: 1px 1px 2px #a5a5a5;
+    }
+    .footer-btn:hover{
+        background-color: #158AAF;
+        color: #FFFFFF;
+        transition: .5s;
+    }
+    .conpyright{
+        margin-bottom: 0;
+    }
+}
