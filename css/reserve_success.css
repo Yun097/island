@@ -1,0 +1,136 @@
+.banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+/* ---麵包屑--- */
+.path-wrap{
+    padding: 10px 0;
+    margin: 10px 10px ;
+    /* border: 1px solid red; */
+}
+.path{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.path li{
+    padding: 0 20px;
+}
+.path a{
+    text-decoration: none;
+    color: #acacac;
+}
+.path a:hover{
+    color: #85BDCE;
+}
+.path li + li{
+    padding-left: 0;
+}
+.path li + li :before{
+    content: '>';
+    color: #acacac;
+    margin-right: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin: auto;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.wrap{
+    /* border: 1px solid blue; */
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item .icon img{
+    width: 37px;
+    height: 37px;
+    margin-right: 200px;
+    margin-bottom: -75px;
+    /* border: 1px solid red; */
+}
+.item{
+    width: 360px;
+    text-align: center;
+    vertical-align: auto;
+    /* border: 1px solid red; */
+}
+.item .text h3{
+    font-size: 22px;
+    color: #5B5A5A;
+    text-align: center;
+    line-height: 1.5;
+    border-bottom: 1px  solid #5B5A5A;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.text h3 span{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.text p{
+    width: 280px;
+    font-size: 16px;
+    color: #777676;
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    line-height: 1.5;
+    /* border: 1px solid yellow; */
+}
+.text p span{
+    font-size: 16px;
+    color: #DA5050;
+}
+.back-btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #158AAF;
+    background-color: #ffff;
+    color: #158AAF;
+}
+.back-btn:hover{
+    background-color: #85BDCE;
+    color: #777474;
+    border: 1px solid #ffff;
+    transition: .5s;
+}
+.item a{
+    text-decoration: none;
+}
+.again-btn{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #158AAF;
+    background-color: #158AAF;
+    color: #ffff;
+    margin: 40px 10px;
+}
+.again-btn:hover{
+    background-color: #85BDCE;
+    color: #777474;
+    border: 1px solid #ffff;
+    transition: .5s;
+}

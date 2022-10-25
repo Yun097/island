@@ -62,25 +62,43 @@
     flex-wrap: wrap;
     margin: auto;
     margin-bottom: -70px;
-    /* border: 1px solid red; */
+    /* border: 1px solid yellow; */
+}
+.item h3{
+    font-size: 20px;
+    color: #494949;
+    border-bottom: 1px solid #494949;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    width: 200px;
+    padding: 30px 0 10px;
 }
 .item img{
     width: 90%;
     margin: 20px 60px 20px 60px;
 }
 .reserve-container{
-    width: 1200px;
-    /* border: 1px solid red; */
+    max-width: 1200px;
+    /* border: 1px solid orange; */
     display: flex;
-    flex-wrap: wrap;
     margin: auto;
     top: 30px;
 }
 .column{
     display: flex;
+    flex-wrap: wrap;
     padding: 20px;
 }
+.text{
+    display: flex;
+    /* flex-wrap: wrap; */
+    position: relative;
+}
 .item-form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
     padding: 10px;
     line-height: 2;
     /* border: 1px solid red; */
@@ -90,19 +108,97 @@
     font-size: 20px;
     color: #494949;
     border-bottom: 1px solid #494949;
-    padding-bottom: 5px;
-    margin-bottom: 30px;
     width: 200px;
+    height: 40px;
 }
-.item-form .from{
+.item-form .from-name{
     font-size: 16px;
+    width: 450px;
     color: #777676;
+    /* border: 1px solid #158AAF; */
+    line-height: 2.5;
+    margin-top: 60px;
+    margin-left: -200px;
+    margin-right: 50px;
+}
+.item-form .form-pho{
+    font-size: 16px;
+    width: 460px;
+    color: #777676;
+    line-height: 2.5;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 50px;
+    /* border: 1px solid blue; */
+}
+.from-name input{
+    outline-style: none ;
+    border: 0; 
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    width: 430px;
+    padding: 10px 10px;
+}
+.form-pho input{
+    outline-style: none ;
+    border: 0; 
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    width: 430px;
+    padding: 10px 10px;
+}
+.form-pho .time input {
+    width: 10px;
+}
+.from-name .msg{
+    width: 10px;
+}
+.from-name select{
+    outline-style: none ;
+    border: 0; 
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    width: 450px;
+    padding: 10px 10px;
+}
+.form-pho select{
+    outline-style: none ;
+    border: 0; 
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    width: 450px;
+    padding: 10px 10px;
+}
+textarea{
+    width: 430px;
+    outline-style: none ;
+    border: 0; 
+    background-color: #EBEBEB;
+    border-radius: 3px;
+    padding: 10px 10px;
+}
+.form-pho h3{
+    font-size: 20px;
+    color: #494949;
+    border-bottom: 1px solid #494949;
+    width: 200px;
+    height: 40px;
+    padding: 20px 0 10px;
+    margin-bottom: 10px;
+}
+.form-pho ul{
+    line-height: 2;
 }
 .reserve-btn{
     display: flex;
-    margin: 30px 100px;
-    width: 100px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 45%;
+    margin-right: 45%;
     background-color: #85BDCE;
+    border-radius: 4px;
+    /* border: 1px solid goldenrod; */
 }
 .reserve-btn a{
     margin: auto;
@@ -115,65 +211,55 @@
     color: #c7c7c7;
     transition: .5s;
 }
-.item-map{
-    padding: 20px;
-    /* border: 1px solid red; */
-    margin-left: 200px;
+.column .map{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding:0  20px;
+    /* border: 1px solid blue; */
+    margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
-.item-map .text-map h3{
+.map-text h3{
     font-size: 20px;
     color: #494949;
     border-bottom: 1px solid #494949;
     padding-bottom: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     width: 200px;
+    padding: 0 0 10px;
 }
-.item-map img{
-    width: 90%;
+.map-text{
+    padding: 0 20px;
+    line-height: 2;
 }
-.item-map h4{
-    font-weight: 500;
-    font-size: 16px;
+.map h4{
+    font-weight: 400;
+    font-size: 18px;
     color: #158AAF;
     line-height: 2;
 }
-.item-map p{
+.map p{
     font-size: 15px;
     color: #777676;
 }
-.text-notice h3{
-    font-size: 20px;
-    color: #494949;
-    border-bottom: 1px solid #494949;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    margin-top: 100px;
-    width: 200px;
-}
-.text-notice ul{
-    line-height: 1.5;
-    font-size: 15px;
-    color: #777676;
-}
-.resever-btn{
-    position: fixed;
-    display:inline-block;
-    background: #40A0BE;
-    color: #fff;
-    width: 100%;
-    height: 3vh;
-    bottom: 0px;
-    left: 0px;
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: none;
-    outline: none;
-    overflow: hidden;
-    z-index: 2;
-}
-.resever-btn:hover{
-    background-color: #158AAF;
-    color: #c7c7c7;
-    transition: .5s;
+@media screen and (max-width:767px) {
+    .banner{
+        top: 20px;
+    }
+    .banner h4{
+        opacity: 0;
+    }
+    .banner span{
+        opacity: 0;
+    }
+    .about .wrap{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .path-wrap{
+        padding: 10px 0;
+        margin: 30px 10px ;
+    }    
 }
