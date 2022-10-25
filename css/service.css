@@ -238,12 +238,20 @@
 }
 @media screen and (max-width:767px) {
     .banner{
-        top: 10px;
+        top: 20px;
     }
     .banner h4{
-        font-size: 12px;
+        opacity: 0;
     }
     .banner span{
-        font-size: 16px;
+        opacity: 0;
     }
+    .about .wrap{
+        max-width: 1200px;
+        margin: auto;
+    }
+    .path-wrap{
+        padding: 10px 0;
+        margin: 30px 10px ;
+    }    
 }
