@@ -101,10 +101,9 @@
     background-color: #85BDCE;
     color: #FFFFFF;
     width: 100px;
-    padding: 8px 10px;
+    padding: 10px 30px;
     border-radius: 4px;
     margin-left:150px;
-    font-weight: 500;
 }
 .form .btn-cancel:hover{
     background-color: #158AAF;
@@ -125,21 +124,20 @@
 }
 .text p{
     font-size: 15px;
-    color: #F9F9F9;
+    color: #ACACAC;
     margin-top: 50px;
     margin-left: 40px;
 }
 @media screen and (max-width:767px) {
     .login{
         width: 280px;
-        height: 350px;
+        height: 400px;
         margin-top: 100px;
         margin-bottom: 200px;
         margin-left: 50px;
         /* border: 1px solid blue; */
     }
     .login .form{
-        margin-top: 50px;
         width: 150px;
         color: #40A0BE;
         /* border: 1px solid red; */
@@ -158,9 +156,15 @@
         background-color: #85BDCE;
         color: #FFFFFF;
         width: 100px;
-        padding: 8px 10px;
+        padding: 10px 30px;
         border-radius: 4px;
         margin-left: 30px;
-        font-weight: 500;
+    }
+    .text p{
+        font-size: 12px;
+        color: #ACACAC;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 150px;
     }
 }
