@@ -6,7 +6,6 @@
     height: 100%;
     top: 0;
     left: 0;
-    /* border: 1px solid red; */
 }
 .banner img{
     width: 100%;
@@ -24,18 +23,15 @@
     margin-top: 10%;
     z-index: 1;
     line-height: 1.5;
-    /* border: 1px solid red; */
 }
 .path-wrap{
     padding: 10px 0;
     margin: 10px 10px ;
-    /* border: 1px solid red; */
 }
 .path{
     width: 90%;
     margin: auto;
     display: flex;
-    /* margin-bottom: 10px; */
 }
 .path li{
     padding: 0 20px;
@@ -62,14 +58,13 @@
     position: relative;
     max-width: 1200px;
     vertical-align: middle;
-    /* border: 1px solid blue; */
+
     padding: 10px 70px;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 .about-card{
     margin: auto;
-    /* border: 1px solid palegreen; */
 }
 .about-card .pic{
     width: 174px;
@@ -77,7 +72,6 @@
     border-radius: 50%;
     box-shadow: 3px 3px 3px 	#c7c7c7;
     margin: 50px;
-    /* border: 1px solid red; */
 }
 .about-card img{
     width: 100%;
@@ -88,7 +82,6 @@
     text-align: center;
     padding: 20px;
     color: #777676;
-    /* border: 1px solid blue; */
 }
 @media screen and (max-width:767px) {
     .banner{
@@ -103,30 +96,25 @@
     .about .wrap{
         max-width: 1200px;
         margin: auto;
-        /* border: 1px solid red; */
     }
     .container{
         max-width: 1200px;
-        /* border: 1px solid seagreen; */
         margin: 50px;
     }
     .about-logo{
         display: flex;
         width: 200px;
         margin: auto;
-        /* border: 1px solid yellow; */
     }
     .about-logo img{
         display: flex;
         width: 100%;
-        /* border: 1px solid black; */
     }
     .container .text{
         line-height: 1.5;
         font-size: 18px;
         color: #777676;
         padding: 10px 10px;
-        /* border: 1px solid purple; */
     }
     .container .text h5{
         font-size: 20px;
@@ -134,11 +122,30 @@
         height: 25px;
         padding: 0 0 10px 0;
         border-bottom: 2px solid #158AAF;
-        /* border: 1px solid salmon; */
     }
     .container .text p{
-        /* border: 1px solid red; */
         margin-top: 10px;
+    }
+    .resever-btn{
+        position: fixed;
+        display:inline-block;
+        background: #40A0BE;
+        color: #fff;
+        width: 100%;
+        height: 3vh;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .resever-btn:hover{
+        background-color: #158AAF;
+        color: #c7c7c7;
+        transition: .5s;
     }
 }
 @media screen and (min-width:768px) {
@@ -148,32 +155,27 @@
     .about .wrap{
         max-width: 1200px;
         margin: auto;
-        /* border: 1px solid red; */
     }
     .container{
-        max-width: 1200px;
+        max-width: 910px;
         display: flex;
-        /* border: 1px solid seagreen; */
-        margin: 50px;
+        margin: auto;
     }
     .about-logo{
         display: flex;
         margin: auto;
         width: 400px;
-        /* border: 1px solid yellow; */
     }
     .about-logo img{
         display: flex;
         width: 100%;
-        /* border: 1px solid black; */
     }
     .container .text{
         width: 100%;
         line-height: 2;
         font-size: 18px;
         color: #777676;
-        padding: 10px 10px;
-        /* border: 1px solid purple; */
+        padding: 10px 0;
     }
     .container .text h5{
         font-size: 20px;
@@ -181,13 +183,29 @@
         height: 25px;
         padding: 0 0 10px 0;
         border-bottom: 2px solid #158AAF;
-        /* border: 1px solid salmon; */
     }
     .container .text p{
-        /* border: 1px solid red; */
         margin-top: 10px;
     }
+    .resever-btn{
+        position: fixed;
+        display:inline-block;
+        background: #40A0BE;
+        color: #fff;
+        width: 100%;
+        height: 3vh;
+        bottom: 0px;
+        left: 0px;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+        outline: none;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .resever-btn:hover{
+        background-color: #158AAF;
+        color: #c7c7c7;
+        transition: .5s;
+    }
 }
-/* @media screen and (min-width:1200px) {
-        
-} */

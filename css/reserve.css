@@ -156,3 +156,24 @@
     font-size: 15px;
     color: #777676;
 }
+.resever-btn{
+    position: fixed;
+    display:inline-block;
+    background: #40A0BE;
+    color: #fff;
+    width: 100%;
+    height: 3vh;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    outline: none;
+    overflow: hidden;
+    z-index: 2;
+}
+.resever-btn:hover{
+    background-color: #158AAF;
+    color: #c7c7c7;
+    transition: .5s;
+}

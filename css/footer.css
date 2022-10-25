@@ -1,5 +1,5 @@
 .main-footer{
-    padding: 60px 0 0 0 ;
+    padding: 30px 0 0 0 ;
     background-color: #075E79;
     display: flex;
     flex-wrap: wrap;
@@ -44,10 +44,11 @@
 .conpyright{
     width: 100%;
     text-align: center;
-    margin: 50px 0 0;
+    /* margin: 50px 0 0; */
     padding: 10px 0px;
     background-color: #11495B;
     color: #D0D0D0;
+    margin-bottom: 40px;
 }
 @media screen and(max-width:767px) {
     .conpyright{
@@ -62,17 +63,11 @@
         position: relative;
         vertical-align: middle;
         margin: auto;
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
     }
-    .container .footer-item{
+    /* .container .footer-item{
         width: 300px;
-    }
-    /* .footer-item{
-        margin: 10px 30px;
-    }  */
-    .conpyright{
-        margin-bottom: 40px;
-    }
+    } */
 }
 @media screen and(min-width:1200px) {
     .footer-item .footer-btn{
@@ -96,7 +91,7 @@
         color: #FFFFFF;
         transition: .5s;
     }
-    .conpyright{
-        margin-bottom: 0;
-    }
+    /* .conpyright{
+        margin-bottom: 30px;
+    } */
 }

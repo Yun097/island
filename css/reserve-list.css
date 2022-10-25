@@ -1,0 +1,109 @@
+.banner{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+/* ---麵包屑--- */
+.path-wrap{
+    padding: 10px 0;
+    margin: 10px 10px ;
+    /* border: 1px solid red; */
+}
+.path{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.path li{
+    padding: 0 20px;
+}
+.path a{
+    text-decoration: none;
+    color: #acacac;
+}
+.path a:hover{
+    color: #85BDCE;
+}
+.path li + li{
+    padding-left: 0;
+}
+.path li + li :before{
+    content: '>';
+    color: #acacac;
+    margin-right: 20px;
+}
+/* 表格 */
+.table-record{
+    max-width: 1200px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+.title{
+    width: 130px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-align: left;
+    margin: 30px;
+    color: #5B5A5A;
+    border-bottom: 3px solid #85BDCE;
+}
+table { 
+    font-size:16px; 
+    position: relative;
+    margin: 90px auto;
+    border-collapse:collapse;
+    width: 950px;
+    height: 100%;
+} 
+tr {
+    background-color: #fff6f6;
+    /* border-bottom: 1px solid #ccc; */
+}
+th { 
+    background-color: #85BDCE;
+    padding:20px 30px;
+    color:#fff;
+} 
+td { 
+    width: 100px;
+    color: #5B5A5A;
+    border-collapse:collapse;
+    padding:15px 10px;
+    text-align: center;
+    font-size: 15px;
+    /* border-bottom: 1px solid #ccc; */
+} 
+td a{
+    font-size: 14px;
+    text-decoration: none;
+    color:#158aaf ;
+    background-color: #fff;
+    border: 2px solid #158aaf;
+    padding: 8px 10px;
+    border-radius: 4px;
+}
+.resever-btn{
+    position: fixed;
+    display:inline-block;
+    background: #40A0BE;
+    color: #fff;
+    width: 100%;
+    height: 3vh;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    outline: none;
+    overflow: hidden;
+    z-index: 2;
+}
+.resever-btn:hover{
+    background-color: #158AAF;
+    color: #c7c7c7;
+    transition: .5s;
+}

@@ -7,13 +7,13 @@
     <!-- css -->
     <link rel="stylesheet" href="css/reset.css">
     <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/news.css" rel="stylesheet" type="text/css"> 
+    <link href="css/reserve-list.css" rel="stylesheet" type="text/css"> 
     <link href="css/header.css" rel="stylesheet" type="text/css"> 
     <link href="css/footer.css" rel="stylesheet" type="text/css"> 
     <!-- favicon -->
     <link rel="shortcut icon" href="pic/favicon.ico.ico">
     <link rel="bookmark" href="pic/favicon.ico.ico">
-    <title>最新消息-小島牙醫診所</title>
+    <title>查看預約-小島牙醫診所</title>
 </head>
 <body>
     <!-- 導覽列 -->
@@ -45,55 +45,69 @@
     </div>
     <!-- banner -->
     <div class="banner">
-        <img src="pic/header-banner.png" alt="醫療團隊">
-        <div class="title-h4">
-            <h4>News<br><span>最新消息</span></h4>
-        </div>
+        <!-- <img src="pic/header-banner.png" alt="關於小島"> -->
     </div>
+    <!-- 麵包屑 -->
     <div class="path-wrap">
         <ol class="path">
             <li><a href="https://yun097.github.io/about.html">首頁</a></li>
-            <li><a href="https://yun097.github.io/teme.html">最新消息</a></li>
+            <li><a href="https://yun097.github.io/teme.html">查看預約</a></li>
         </ol>
     </div>
-    <div class="news-content">
-        <div class="item">
-            <div class="news-card">
-                <img style="border-radius: 50%;" src="pic/news-main.jpg" alt="休診公告">
-                <div class="text">
-                    <h3>休診公告</h3>
-                    <p>小島牙醫診所祝福大家中秋佳節愉快
-                        <br>本院將於 2022/09/08中秋節 休診一天
-                        <br>造成不便敬請見諒～
-                    </p>
-                    <p><span>2022/09/08</span></p>
-                </div>
-            </div>
-            <div class="news-card">
-                <img style="border-radius: 50%;" src="pic/news-main.jpg" alt="休診公告">
-                <div class="text">
-                    <h3>休診公告</h3>
-                    <p>小島牙醫診所祝福大家中秋佳節愉快
-                        <br>本院將於 2022/05/01勞動節 休診一天
-                        <br>造成不便敬請見諒～
-                    <p><span>2022/05/01</span></p>
-                </div>
-            </div>
-            <div class="news-card">
-                <img style="border-radius: 50%;" src="pic/news-child.jpg" alt="偏鄉義診">
-                <div class="text">
-                    <h3>偏鄉義診</h3>
-                    <p>感謝本院張醫師於2022/04/04兒童節
-                        <br>至台東國小為學童義診...
-                    </p>
-                    <p><span>2022/04/04</span></p>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="resever-btn">立即預約</a>
+    <!-- 表格 -->
+    <div class="table-record">
+        <div class="title">歷史預約紀錄</div>
+        <table> 
+            <tr> 
+                <th>預約日期</th> 
+                <th>看診日期</th>
+                <th>療程項目</th> 
+                <th>看診醫師</th>
+                <th>預約狀態</th> 
+                <th>診療結果</th>
+                <th></th>
+            </tr> 
+            <tr> 
+                <td>2022/09/16</th> 
+                <td>2022/09/20</td> 
+                <td>健保洗牙</td>
+                <td>張依然</td>
+                <td>預約成功</td>
+                <td></td>
+                <td><a href="">取消預約</a></td>
+            </tr> 
+            <tr> 
+                <td>2022/09/01</th> 
+                <td>2022/09/15</td> 
+                <td>矯正評估</td>
+                <td>陳傑森</td>
+                <td>預約取消</td>
+                <td>已取消</td>
+                <td></td>
+            </tr> 
+            <tr>
+                <td>2022/09/10</th> 
+                <td>2022/09/15</td> 
+                <td>根管治療</td>
+                <td>吳宗林</td>
+                <td>預約成功</td>
+                <td>第一次療程完成</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>2022/06/16</th> 
+                <td>2022/06/20</td> 
+                <td>健保洗牙</td>
+                <td>張依然</td>
+                <td>預約成功</td>
+                <td>完成療程</td>
+                <td></td>
+            </tr>
+          </table>
+          <a href="#" class="resever-btn">立即預約</a>
     </div>
-      <!-- footer -->
-      <div class="main-footer">
+    <!-- footer -->
+    <div class="main-footer">
         <div class="container">
             <div class="footer-item">
                 <h5>診所地址</h5>
@@ -109,10 +123,11 @@
                 <p>Tel：03-12345678<br>免付費諮詢專線：0800-123000</p>
             </div>
         </div>
-        <div class="conpyright">
-            Copyright &copy; 2022
-            小島牙醫診所
-        </div>
     </div>
+    <div class="conpyright">
+        Copyright &copy; 2022
+        小島牙醫診所
+    </div>
+    <a href="#" class="resever-btn">立即預約</a>
 </body>
 </html>
