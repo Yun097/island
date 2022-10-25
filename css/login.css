@@ -143,7 +143,11 @@
         /* border: 1px solid red; */
     }
     .form h2{
-        opacity: 0;
+        font-size: 22px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        color: #075E79;
+        text-align: center;
     }
     .form .group{
         margin-bottom: 5px;
