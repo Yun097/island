@@ -321,11 +321,21 @@
 
 /* -------------手機版------------ */
 @media screen and (max-width:767px){
-    .banner .wrap .text{
-        opacity: 0;
-    }
     .banner h3{
         font-size: 0.8em;
+    }
+    .banner .wrap .text{
+        opacity: 0;
+        position: absolute;
+        /* z-index: 1; */
+        /* background-color: rgba(210, 249, 252, 0.848); */
+        /* border-radius: 10px; */
+        /* font-size: 18px; */
+        /* color: #158AAF; */
+        /* margin-top:20%; */
+        /* margin-left: 5%; */
+        /* padding: 30px 50px 60px 50px; */
+        /* border: 1px solid red; */
     }
     /* 立即預約按鈕 */
     .banner .text .resever-btn{
