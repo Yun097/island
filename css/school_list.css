@@ -70,7 +70,7 @@
 .text p{
     font-size: 16px;
     line-height: 2;
-    margin: 40px 50px ;
+    margin: 40px 0 ;
 }
 .pic-low img{
     margin: 40px 10px;
@@ -102,7 +102,7 @@
         width: 300px;
         font-size: 18px;
         padding: 40px 0 15px;
-        margin-left: 50px;
+        margin-left: 20px;
         margin-bottom: 40px;
         /* border-bottom: 1px solid #777676; */
     }
@@ -115,7 +115,7 @@
     .text p{
         font-size: 16px;
         line-height: 2;
-        margin: 40px 50px ;
+        margin: 40px 20px ;
     }
     .pic-low img{
         margin: 20px 10px;
