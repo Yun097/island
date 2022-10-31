@@ -53,15 +53,15 @@
 }
 table { 
     font-size:16px; 
-    position: relative;
     margin: 90px auto;
-    border-collapse:collapse;
-    width: 950px;
-    height: 100%;
+    margin-left: 30px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    box-sizing: border-box;
 } 
 tr {
     background-color: #fff6f6;
-    /* border-bottom: 1px solid #ccc; */
 }
 th { 
     background-color: #85BDCE;
@@ -72,10 +72,10 @@ td {
     width: 100px;
     color: #5B5A5A;
     border-collapse:collapse;
-    padding:15px 10px;
+    padding:20px 10px;
     text-align: center;
     font-size: 15px;
-    /* border-bottom: 1px solid #ccc; */
+    border-bottom: 1px solid #ccc;
 } 
 td a{
     font-size: 14px;

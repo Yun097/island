@@ -63,7 +63,8 @@
     background-color: #F5F5F5;
     flex-direction: column;
     /* border: 1px solid red; */
-    margin: 20px 0 20px 0px;
+    margin: 20px 0 20px 0px;   
+    border-radius: 0 10px 10px 0;
 }
 .column a{
     display: block;
@@ -103,7 +104,7 @@
     display: flex;
     flex-direction: column;
     background-color: #D5F6F8;
-    /* text-align: left; */
+    border-radius: 10px;
     margin: auto;
     position: relative;
     box-shadow: 3px 3px 3px 	#c7c7c7;
@@ -254,4 +255,83 @@
         padding: 10px 0;
         margin: 30px 10px ;
     }    
+    .service-menu{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        background-color: #F5F5F5;
+        width: 250px;
+        border-radius: 10px ;
+    }
+    .column{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        /* border: 1px solid yellow; */
+    }
+    .column a{
+        width: 180px;
+        margin: auto;
+        font-size: 1rem;
+        padding: 20px 10px 20px 10px;
+        color: #767676;
+        text-decoration: none;
+        /* border: 1px solid red; */
+    }
+    .service-item{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin: auto;
+        margin-top:40px ;
+    }
+    .card{
+        width: 250px;
+        height: 450px;
+        background-color: #D5F6F8;
+        margin: auto;
+        position: relative;
+        box-shadow: 3px 3px 3px 	#c7c7c7;
+        border-radius: 10px;
+    }
+    .card .pic{
+        width: 250px;
+        /* border: 1px solid purple; */
+    }
+    .card img{
+        width: 100%;
+    }
+    .card .text {
+        display: flex;
+        flex-wrap: wrap;
+        margin: auto;
+        margin: 10px;
+        /* border: 1px solid blue; */
+    }
+    .card .text h5{
+        display: flex;
+        margin: auto;
+        width: 180px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .card .text p{
+        margin: auto;
+        padding: 10px;
+    }
+    .card-btn{
+        left: 70px;
+        bottom: -10px;
+        /* border: 1px solid blue; */
+    }
+    .title-QA h6{
+        margin-left: 100px ;
+        /* border: 1px solid yellow; */
+    }
+    section{
+        width: 300px;
+        margin: auto;
+    }
 }
