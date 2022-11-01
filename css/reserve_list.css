@@ -10,7 +10,7 @@
 /* ---麵包屑--- */
 .path-wrap{
     padding: 10px 0;
-    margin: 10px 10px ;
+    margin: 30px 10px ;
     /* border: 1px solid red; */
 }
 .path{
@@ -85,4 +85,9 @@ td a{
     border: 2px solid #158aaf;
     padding: 8px 10px;
     border-radius: 4px;
+}
+td a:hover{
+    background-color: #85BDCE;
+    color: #fff;
+    border: none;
 }
