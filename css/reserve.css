@@ -286,7 +286,7 @@ textarea{
 
 @media screen and (max-width:767px) {
     .banner{
-        top: 20px;
+        top: 40px;
     }
     .banner h4{
         opacity: 0;
@@ -299,7 +299,7 @@ textarea{
         margin: auto;
     }
     .path-wrap{
-        padding: 10px 0;
+        padding: 20px 0;
         margin: 30px 10px ;
     }    
     table{

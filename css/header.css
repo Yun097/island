@@ -5,7 +5,7 @@
 }
 .main-header{
     width: 100%;
-    height: 50px;
+    height: 70px;
     background-color: #ffffff;
     position: fixed;
     box-shadow: -10px 0 10px #a5a5a5;
@@ -14,9 +14,9 @@
 }
 .logo{
     width: 200px;
-    height: 70px;
+    height: 50px;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
     /* border: 1px solid red; */
 }
 .logo a{
@@ -33,7 +33,7 @@
     background-color: #ffffff;
     display: block;
     position: absolute;
-    top: 5px;
+    top: 15px;
     right: 10px;
 }
 .menu_btn span{
@@ -66,7 +66,7 @@
     display: block;
     text-decoration: none;
     color: #7c7b7b;
-    padding: 17px 15px;
+    padding: 27px 15px;
     margin: auto;
     /* border: 1px solid red; */
     border-bottom: 1px solid #E0E0E0;
@@ -85,7 +85,7 @@
         width: 100%;
         height: 100vh;
         position: absolute;
-        top: 51px;
+        top: 71px;
         left: -100%;
         margin: 0;
         /* border: 1px solid red; */
@@ -98,6 +98,11 @@
         color: #7c7b7b;
         opacity: 100%;
         margin: auto;
+    }
+    .logo{
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
     }
 }
 @media screen and (min-width:768px) {
@@ -120,6 +125,11 @@
         opacity: 100%;
         margin: auto;
     }
+    .logo{
+        height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
 }
 @media screen and (min-width:1200px) {
     .menu_btn{ display: none; }
@@ -133,9 +143,10 @@
         left: 0;
         display: flex;
         width: auto;
-        height: auto;
+        height: 70px;
         top: 0;
         background-color: transparent;
+        /* border: 1px solid blue; */
     }
     .main-nav a{
         border-bottom: none;
@@ -150,5 +161,10 @@
     .main-nav p{
         display: none;
         opacity: 0;
+    }
+    .logo{
+        height: 50px;
+        margin-top: 5px;
+        margin-left: 20px;
     }
 }

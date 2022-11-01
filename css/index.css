@@ -55,15 +55,18 @@
     font-size: 16px;
 }
 .teme .item{
-    /* max-width: 1200px; */
+    max-width: 1400px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
     justify-content: center;
     position: relative;
+    /* border: 1px solid red; */
 }
 .teme .card{
     /* width: 100%; */
-    width: 228px;
+    width: 200px;
     height: 100%;
     margin: 10px;
     text-align: center;
